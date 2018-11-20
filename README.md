@@ -1,4 +1,4 @@
-# SIgnalRDemo
+# SignalRDemo
 
 This prokect will show how to use SignalR to get changes from a database.
 
