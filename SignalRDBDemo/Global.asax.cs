@@ -43,8 +43,6 @@ namespace SignalRDBDemo
 
             string connectionString = ConfigurationManager.ConnectionStrings["NotificationConnection"].ConnectionString;
 
-            //connectionString = "Server=tcp:aagsqldb.database.windows.net,1433;Initial Catalog=signalRdemoDB;Persist Security Info=False;User ID=artg;Password=Razz17012345;";
-            
             //We have selected the entire table as the command, so SQL Server executes this script and sees if there is a change in the result, raise the event
             string commandText = @"
                                     Select
